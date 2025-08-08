@@ -14,7 +14,7 @@ export default function Page() {
       </div>
       <Link href="/login"><button className="btn">Entrar</button></Link>
       <span style={{marginLeft: 12}} />
-      <Link href="/(admin)/events"><button className="btn">Eventos</button></Link>
+      <Link href="/events"><button className="btn">Eventos</button></Link>
     </main>
   );
 }
