@@ -17,14 +17,14 @@ export default function LoginPage() {
 
   useEffect(() => {
     const t = getAdminToken();
-    if (t) router.push('/events');
+    if (t) router.push('/dashboard');
   }, [router]);
 
   function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
     if (!token) return;
     setAdminToken(token);
-    router.push('/events');
+    router.push('/dashboard');
   }
 
   return (
