@@ -8,11 +8,11 @@ export default function Page() {
         <p>Bienvenido al panel admin de 1337.</p>
       </div>
 
-      {/* ESTE a /login */}
+      {/* Botón de acceso (login) */}
       <Link href="/login"><button className="btn">Entrar</button></Link>
       <span style={{marginLeft: 12}} />
 
-      {/* ESTE a /events */}
+      {/* Acceso directo a eventos */}
       <Link href="/events"><button className="btn">Eventos</button></Link>
     </main>
   );
