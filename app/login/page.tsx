@@ -41,9 +41,6 @@ export default function LoginPage() {
           <button className="btn" type="submit">Entrar</button>
         </div>
       </form>
-      <p style={{opacity:.7, marginTop: 12}}>
-        Configura el token en Vercel (variable <code>ADMIN_TOKEN</code>) y pégalo aquí para esta demo.
-      </p>
     </main>
   );
 }
